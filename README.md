@@ -28,19 +28,19 @@ This is a very early draft of potential syntax, subject to quite a bit of change
 Expressions can be written in LISP-y syntax:
 
 ```
-(/channel (f:notes (pattern all /(.*)/)))
+(/channel (~notes (pattern all /(.*)/)))
 ```
 
 Or in arrow notation
 
 ```
--> all f:notes /channel
+-> all ~notes /channel
 ```
 
 Or a combo
 
 ```
--> (pattern /(.*)/) f:notes /channel
+-> (pattern /(.*)/) ~notes /channel
 ```
 
 Define a pattern
@@ -52,13 +52,13 @@ Define a pattern
 Run a filter
 
 ```
--> all f:notes
+-> all ~notes
 ```
 
 Send to OSC channel
 
 ```
--> all f:notes /channel
+-> all ~notes /channel
 ```
 
 
