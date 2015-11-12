@@ -1,9 +1,9 @@
-Regular Expressions DSL
+regexpoetics-lang
 =======================
 
 This document sketches out a basic domain-specific language (DSL) for converting text into values that can be used for music synthesis, etc.
 
-This idea is connected to a project called [_Regular Expressions_](https://github.com/notioncollective/regexpoetics) by Jonathan Wohl and Andy Dayton, a simple tool for writing text live and using it to generate audio. 
+This idea is connected to a project called [regexpoetics](https://github.com/notioncollective/regexpoetics) developed by Jonathan Wohl and Andy Dayton, a simple tool for writing text live and using it to generate audio.
 
 ![Regular Expressions](https://github.com/notioncollective/regexpoetics/raw/master/public/img/screen.png)
 
